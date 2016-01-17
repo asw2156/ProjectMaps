@@ -19,38 +19,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="gII-VM-PZJ" kind="presentation" identifier="showSegue" id="1RW-DB-sux"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="showSegue" id="2Qf-cn-Tva"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R0F-4i-TyY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-346" y="-507"/>
-        </scene>
-        <!--FB View Controller-->
-        <scene sceneID="kCM-kx-lA4">
-            <objects>
-                <viewController id="gII-VM-PZJ" userLabel="FB View Controller" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="T0Y-um-snB"/>
-                        <viewControllerLayoutGuide type="bottom" id="517-5J-nNz"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hit-Fp-YZ4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FB Logged In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRC-eS-0pp">
-                                <rect key="frame" x="250" y="289" width="101" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pzz-Jk-SSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="477" y="-507"/>
+            <point key="canvasLocation" x="-536" y="-700"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -68,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100" y="-334"/>
+            <point key="canvasLocation" x="407" y="-734"/>
         </scene>
     </scenes>
 </document>
