@@ -19,6 +19,7 @@
 		A072FA051C261E8300C0E13B /* GmapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A072FA041C261E8300C0E13B /* GmapsUITests.swift */; };
 		A072FA131C262BD200C0E13B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A072FA121C262BD200C0E13B /* CoreBluetooth.framework */; };
 		A072FA151C262BDA00C0E13B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A072FA141C262BDA00C0E13B /* Accelerate.framework */; };
+		A0A906FC1C728B4A002E40CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A906FB1C728B4A002E40CC /* MapViewController.swift */; };
 		FBAA49AEDF77066D4608BDF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2214DEFE8FA24C01EB3623 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		A072FA061C261E8300C0E13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A072FA121C262BD200C0E13B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		A072FA141C262BDA00C0E13B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A0A906FB1C728B4A002E40CC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F51021E3B5869FD8434D5CC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				A072F9ED1C261E8300C0E13B /* LaunchScreen.storyboard */,
 				A072F9F01C261E8300C0E13B /* Info.plist */,
 				A0535C6F1C4323E3001404B6 /* FBViewController.swift */,
+				A0A906FB1C728B4A002E40CC /* MapViewController.swift */,
 			);
 			path = Gmaps;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				A072F9E71C261E8300C0E13B /* ViewController.swift in Sources */,
 				A072F9E51C261E8300C0E13B /* AppDelegate.swift in Sources */,
 				A0535C701C4323E3001404B6 /* FBViewController.swift in Sources */,
+				A0A906FC1C728B4A002E40CC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

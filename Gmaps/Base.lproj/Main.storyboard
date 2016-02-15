@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CrT-y0-w08">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j7s-SZ-Beh">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -43,6 +43,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="407" y="-734"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="hI7-Rj-11D">
+            <objects>
+                <viewController id="j7s-SZ-Beh" customClass="MapViewController" customModule="Gmaps" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KxK-Da-Gu2"/>
+                        <viewControllerLayoutGuide type="bottom" id="xfe-zH-aPZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iWX-zr-mrk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3YB-h4-92c" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-WK-VKl">
+                                <rect key="frame" x="279" y="290" width="42" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="0.8329454787234043" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="shi-nR-aax"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3YB-h4-92c" firstAttribute="top" secondItem="iWX-zr-mrk" secondAttribute="top" id="EHP-rL-Dh8"/>
+                            <constraint firstItem="3YB-h4-92c" firstAttribute="leading" secondItem="iWX-zr-mrk" secondAttribute="leading" id="FgG-GS-17n"/>
+                            <constraint firstAttribute="trailing" secondItem="3YB-h4-92c" secondAttribute="trailing" id="Kvp-Wl-H9O"/>
+                            <constraint firstItem="3YB-h4-92c" firstAttribute="bottom" secondItem="xfe-zH-aPZ" secondAttribute="top" id="QBM-3c-i3L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="hvZ-WK-VKl" id="Yox-Jl-lYe"/>
+                        <outlet property="mapView2" destination="3YB-h4-92c" id="nEo-RT-wxQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wc8-Bn-J3l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="-741"/>
         </scene>
     </scenes>
 </document>
